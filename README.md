@@ -11,3 +11,9 @@ Usage: **If running the cookies version of the script ensure you have closed all
 3. Run the respective .ps1 file, either the base version or cookies version.
 4. The script will proceed to download the videos and their subtitles, if present, one after another and deposit them in the output folder set in step 1.
 5. Navigate to your output location where you should now find the the videos located in a file named with the date and time it was generated, "Batch-%%-%%-%%%%-%%-%%", lone videos will be in their own folders named NA, if you donwloaded a playlist it will have the playlist title as the folder name.
+
+
+If you are using the version with cookies, ensure you have installed the browser-cookie3 python package 
+```
+pip install browser-cookie3
+```
